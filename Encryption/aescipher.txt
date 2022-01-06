@@ -43,3 +43,19 @@ module aescipher(clk,datain,key,dataout);
 //firstRound
     wire [127:0] r1_out,r2_out,r3_out,r4_out,r5_out,r6_out,r7_out,r8_out,r9_out,r10_out,r11_out,r12_out,r13_out;
 
+    rounds r1(.clk(clk),.data(add_roundKey_out),.keyin(key2),.rndout(r1_out));
+    rounds r2(.clk(clk),.data(r1_out),.keyin(key3),.rndout(r2_out));
+    rounds r3(.clk(clk),.data(r2_out),.keyin(key4),.rndout(r3_out));
+    rounds r4(.clk(clk),.data(r3_out),.keyin(key5),.rndout(r4_out));
+    rounds r5(.clk(clk),.data(r4_out),.keyin(key6),.rndout(r5_out));
+    rounds r6(.clk(clk),.data(r5_out),.keyin(key7),.rndout(r6_out));
+    rounds r7(.clk(clk),.data(r6_out),.keyin(key8),.rndout(r7_out));
+    rounds r8(.clk(clk),.data(r7_out),.keyin(key9),.rndout(r8_out));
+    rounds r9(.clk(clk),.data(r8_out),.keyin(key10),.rndout(r9_out));
+    rounds r10(.clk(clk),.data(r9_out),.keyin(key11),.rndout(r10_out));
+    rounds r11(.clk(clk),.data(r10_out),.keyin(key12),.rndout(r11_out));
+    rounds r12(.clk(clk),.data(r11_out),.keyin(key13),.rndout(r12_out));
+    rounds r13(.clk(clk),.data(r12_out),.keyin(key14),.rndout(r13_out));
+    rounndlast r14(.clk(),.rin(r13_out),.keylastin(key15),.fout(dataout));
+
+endmodule
