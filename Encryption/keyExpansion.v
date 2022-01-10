@@ -26,3 +26,8 @@ module keyExpansion(rc,key,keyout);
        assign keyout[95:64]=t2^w4^w5;
        assign keyout[63:32]=t2^w4^w5^w6;
        assign keyout[31:0]=t2^w4^w5^w6^w7;
+    
+       sbox a1(.a(w7[23:16]),.c(tem[31:24]));
+       sbox a2(.a(w7[15:8]),.c(tem[23:16]));
+       sbox a3(.a(w7[7:0]),.c(tem[15:8]));
+       sbox a4(.a(w7[31:24]),.c(tem[7:0]));
