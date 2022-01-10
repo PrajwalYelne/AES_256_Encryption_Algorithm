@@ -31,3 +31,8 @@ module keyExpansion(rc,key,keyout);
        sbox a2(.a(w7[15:8]),.c(tem[23:16]));
        sbox a3(.a(w7[7:0]),.c(tem[15:8]));
        sbox a4(.a(w7[31:24]),.c(tem[7:0]));
+    
+       sbox s1(.a(t1[31:24]),.c(t2[31:24]));
+       sbox s2(.a(t1[23:16]),.c(t2[23:16]));
+       sbox s3(.a(t1[15:8]),.c(t2[15:8]));
+       sbox s4(.a(t1[7:0]),.c(t2[7:0]));
