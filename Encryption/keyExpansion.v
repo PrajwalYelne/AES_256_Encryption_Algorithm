@@ -36,3 +36,12 @@ module keyExpansion(rc,key,keyout);
        sbox s2(.a(t1[23:16]),.c(t2[23:16]));
        sbox s3(.a(t1[15:8]),.c(t2[15:8]));
        sbox s4(.a(t1[7:0]),.c(t2[7:0]));
+    
+    function [31:0]	rcon;
+      input	[3:0]	rc;
+      case(rc)	
+         4'h0: rcon=32'h01_00_00_00;
+         4'h1: rcon=32'h02_00_00_00;
+         4'h2: rcon=32'h04_00_00_00;
+         4'h3: rcon=32'h08_00_00_00;
+         4'h4: rcon=32'h10_00_00_00;
