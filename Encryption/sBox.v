@@ -245,7 +245,7 @@ reg [7:0] c;
 	   8'heb: c=8'he9;
 	   8'hec: c=8'hce;
 	   8'hed: c=8'h55;
-	    8'hee: c=8'h28;
+	   8'hee: c=8'h28;
 	   8'hef: c=8'hdf;
 	   8'hf0: c=8'h8c;
 	   8'hf1: c=8'ha1;
@@ -264,4 +264,5 @@ reg [7:0] c;
 	   8'hfe: c=8'hbb;
 	   8'hff: c=8'h16;
 	endcase
- 
+	
+endmodule 
