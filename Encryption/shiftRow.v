@@ -17,3 +17,10 @@ module shiftrow(sb,sr);
     assign          sr[55:48] = sb[23:16];
     assign          sr[47:40] = sb[111:104];
     assign          sr[39:32] = sb[71:64];
+    
+    assign          sr[31:24] = sb[31:24];
+    assign          sr[23:16] = sb[119:112];
+    assign          sr[15:8] = sb[79:72];
+    assign          sr[7:0] = sb[39:32];
+    
+endmodule    
