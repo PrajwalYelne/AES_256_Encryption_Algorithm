@@ -8,4 +8,12 @@ module shiftrow(sb,sr);
     assign         sr[111:104] = sb[47:40];
     assign         sr[103:96] = sb[7:0];
   
-    
+    assign          sr[95:88] = sb[95:88];
+    assign          sr[87:80] = sb[55:48];
+    assign          sr[79:72] = sb[15:8];
+    assign          sr[71:64] = sb[103:96];
+
+    assign          sr[63:56] = sb[63:56];
+    assign          sr[55:48] = sb[23:16];
+    assign          sr[47:40] = sb[111:104];
+    assign          sr[39:32] = sb[71:64];
