@@ -18,3 +18,5 @@ module stupidciphertest;
         begin
           $monitor($time,"key=%h,datain=%h,dataout=%h",key,datain,dataout); 
         end
+    
+endmodule
