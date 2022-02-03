@@ -12,3 +12,9 @@ module subbytes(data,sb);
          sbox q5( .a(data[87:80]),.c(sb[87:80]) );
          sbox q6( .a(data[79:72]),.c(sb[79:72]) );
          sbox q7( .a(data[71:64]),.c(sb[71:64]) );
+    
+         sbox q8( .a(data[63:56]),.c(sb[63:56]) );
+         sbox q9( .a(data[55:48]),.c(sb[55:48]) );
+         sbox q10(.a(data[47:40]),.c(sb[47:40]) );
+         sbox q11(.a(data[39:32]),.c(sb[39:32]) );
+
