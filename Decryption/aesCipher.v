@@ -15,3 +15,9 @@ module aesdecipher(clk,datain,key,dataout);
     keyExpansion k5(.rc(4'b0100),.key(keyout4),.keyout(keyout5));
     keyExpansion k6(.rc(4'b0101),.key(keyout5),.keyout(keyout6));
     keyExpansion k7(.rc(4'b0110),.key(keyout6),.keyout(keyout7));
+    
+    assign key15 = key[255:128];
+    assign key14 = key[127:0];
+    assign key13 = keyout1[255:128];
+    assign key12 = keyout1[127:0];
+    assign key11 = keyout2[255:128];
