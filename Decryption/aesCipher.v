@@ -31,4 +31,8 @@ module aesdecipher(clk,datain,key,dataout);
     assign key3 = keyout6[255:128];
     assign key2 = keyout6[127:0];
     assign key1 = keyout7[255:128];
-
+    
+    //addroundKey
+    wire [127:0] add_roundKey_out;
+    assign add_roundKey_out = datain ^ key1;
+    
