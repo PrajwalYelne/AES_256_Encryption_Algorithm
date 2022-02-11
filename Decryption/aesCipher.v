@@ -26,4 +26,9 @@ module aesdecipher(clk,datain,key,dataout);
     assign key8 = keyout3[127:0];
     assign key7 = keyout4[255:128];
     assign key6 = keyout4[127:0];
-    
+    assign key5 = keyout5[255:128];
+    assign key4 = keyout5[127:0];
+    assign key3 = keyout6[255:128];
+    assign key2 = keyout6[127:0];
+    assign key1 = keyout7[255:128];
+
