@@ -11,3 +11,7 @@ module aesdecipher(clk,datain,key,dataout);
     keyExpansion k1(.rc(4'b0000),.key(key),.keyout(keyout1));
     keyExpansion k2(.rc(4'b0001),.key(keyout1),.keyout(keyout2));
     keyExpansion k3(.rc(4'b0010),.key(keyout2),.keyout(keyout3));
+    keyExpansion k4(.rc(4'b0011),.key(keyout3),.keyout(keyout4));
+    keyExpansion k5(.rc(4'b0100),.key(keyout4),.keyout(keyout5));
+    keyExpansion k6(.rc(4'b0101),.key(keyout5),.keyout(keyout6));
+    keyExpansion k7(.rc(4'b0110),.key(keyout6),.keyout(keyout7));
