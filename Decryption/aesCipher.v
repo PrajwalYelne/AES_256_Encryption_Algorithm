@@ -36,3 +36,9 @@ module aesdecipher(clk,datain,key,dataout);
     wire [127:0] add_roundKey_out;
     assign add_roundKey_out = datain ^ key1;
     
+     //firstRound
+    wire [127:0] r1_out,r2_out,r3_out,r4_out,r5_out,r6_out,r7_out,r8_out,r9_out,r10_out,r11_out,r12_out,r13_out;
+
+    InverseRounds r1(.clk(clk),.data(add_roundKey_out),.keyin(key2),.rndout(r1_out));
+    InverseRounds r2(.clk(clk),.data(r1_out),.keyin(key3),.rndout(r2_out));
+    
