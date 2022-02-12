@@ -41,4 +41,8 @@ module aesdecipher(clk,datain,key,dataout);
 
     InverseRounds r1(.clk(clk),.data(add_roundKey_out),.keyin(key2),.rndout(r1_out));
     InverseRounds r2(.clk(clk),.data(r1_out),.keyin(key3),.rndout(r2_out));
+    InverseRounds r3(.clk(clk),.data(r2_out),.keyin(key4),.rndout(r3_out));
+    InverseRounds r4(.clk(clk),.data(r3_out),.keyin(key5),.rndout(r4_out));
+    InverseRounds r5(.clk(clk),.data(r4_out),.keyin(key6),.rndout(r5_out));
+    InverseRounds r6(.clk(clk),.data(r5_out),.keyin(key7),.rndout(r6_out));
     
