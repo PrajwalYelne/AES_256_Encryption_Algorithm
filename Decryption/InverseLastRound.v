@@ -3,3 +3,8 @@ module InverseLastRound(clk,rin,keylastin,fout);
   input [127:0]rin;
   input [127:0]keylastin;
   output [127:0]fout;
+  
+  wire [127:0] sb,sr;
+
+  InverseShiftRow t2(.sb(rin),.sr(sb));
+
