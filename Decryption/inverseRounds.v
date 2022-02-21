@@ -9,3 +9,6 @@ module InverseRounds(clk,data,keyin,rndout);
   InverseShiftRow t2(.sb(data),.sr(sb));
   InverseSubByte t1(.data(sb),.sb(sr));
   assign mcl = sr^ keyin;
+  InverseMixColumn t3(.a(mcl),.mcl(rndout));
+
+endmodule
