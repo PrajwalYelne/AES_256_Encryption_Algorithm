@@ -40,4 +40,10 @@ module InverseSbox(a,c);
         8'h1e:c=8'he9;
         8'h1f:c=8'hcb;
         8'h20:c=8'h54;
-        
+        8'h21:c=8'h7b;
+        8'h22:c=8'h94;
+        8'h23:c=8'h32;
+        8'h24:c=8'ha6;
+        8'h25:c=8'hc2;
+        8'h26:c=8'h23;
+        8'h27:c=8'h3d;
