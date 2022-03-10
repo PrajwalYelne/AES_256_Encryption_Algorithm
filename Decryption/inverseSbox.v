@@ -110,4 +110,15 @@ module InverseSbox(a,c);
         8'h64:c=8'h8c;
         8'h65:c=8'hbc;
         8'h66:c=8'hd3;
+        8'h67:c=8'h0a;
+        8'h68:c=8'hf7;
+        8'h69:c=8'he4;
+        8'h6a:c=8'h58;
+        8'h6b:c=8'h05;
+        8'h6c:c=8'hb8;
+        8'h6d:c=8'hb3;
+        8'h6e:c=8'h45;
+        8'h6f:c=8'h06;
+        8'h70:c=8'hd0;
+        8'h71:c=8'h2c;
         
