@@ -261,3 +261,7 @@ module InverseSbox(a,c);
         8'hfb:c=8'h63;
         8'hfc:c=8'h55;
         8'hfd:c=8'h21;
+        8'hfe:c=8'h0c;
+        8'hff:c=8'h7d;
+    endcase
+endmodule    
