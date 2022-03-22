@@ -18,3 +18,7 @@ module InverseShiftRow(sb,sr);
   assign          sr[111:104]=sb[47:40];
   assign          sr[71:64]=sb[39:32];
   
+  assign          sr[31:24]=sb[31:24];
+  assign           sr[119:112]=sb[23:16];
+  assign          sr[79:72]=sb[15:8];
+  assign          sr[39:32]=sb[7:0]; 
