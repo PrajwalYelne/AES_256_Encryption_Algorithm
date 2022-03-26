@@ -22,4 +22,5 @@ module InverseSubByte(data,sb);
      InverseSbox q13(.a(data[23:16]),.c(sb[23:16]) );
      InverseSbox q14(.a(data[15:8]),.c(sb[15:8]) );
      InverseSbox q16(.a(data[7:0]),.c(sb[7:0]) );
-	  
+
+endmodule
