@@ -14,3 +14,10 @@ module keyExpansion(rc,key,keyout);
        assign w5 = key[95:64];
        assign w6 = key[63:32];
        assign w7 = key[31:0];
+    
+    
+       assign keyout[255:224]= w0 ^ tem ^ rcon(rc);
+       assign keyout[223:192] = w0 ^ tem ^ rcon(rc)^ w1;
+       assign keyout[191:160] = w0 ^ tem ^ rcon(rc)^ w1 ^ w2;
+       assign keyout[159:128]  = w0 ^ tem ^ rcon(rc)^ w1 ^ w2 ^ w3;
+       
