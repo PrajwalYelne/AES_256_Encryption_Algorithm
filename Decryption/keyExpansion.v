@@ -22,3 +22,8 @@ module keyExpansion(rc,key,keyout);
        assign keyout[159:128]  = w0 ^ tem ^ rcon(rc)^ w1 ^ w2 ^ w3;
        
        assign t1 = w0 ^ tem ^ rcon(rc)^ w1 ^ w2 ^ w3;
+    
+       assign keyout[127:96]=t2^w4;
+       assign keyout[95:64]=t2^w4^w5;
+       assign keyout[63:32]=t2^w4^w5^w6;
+       assign keyout[31:0]=t2^w4^w5^w6^w7;
