@@ -47,3 +47,8 @@ module keyExpansion(rc,key,keyout);
           4'h3: rcon=32'h08_00_00_00;
           4'h4: rcon=32'h10_00_00_00;
           4'h5: rcon=32'h20_00_00_00;
+          4'h6: rcon=32'h40_00_00_00;
+          4'h7: rcon=32'h80_00_00_00;
+          4'h8: rcon=32'h1b_00_00_00;
+          4'h9: rcon=32'h36_00_00_00;
+          
