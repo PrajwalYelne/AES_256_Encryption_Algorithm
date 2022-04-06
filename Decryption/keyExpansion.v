@@ -41,3 +41,6 @@ module keyExpansion(rc,key,keyout);
     function [31:0]	rcon;
       input	[3:0]	rc;
       case(rc)
+          4'h0: rcon=32'h01_00_00_00;
+          4'h1: rcon=32'h02_00_00_00;
+          4'h2: rcon=32'h04_00_00_00;
