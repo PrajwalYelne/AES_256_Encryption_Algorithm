@@ -10,3 +10,7 @@ module MixColumnHelper(rc,mcl);
   function [7:0]	mul9;
       input	[7:0]	rc;
       case(rc)	
+         8'h00:mul9=8'h00;
+         8'h01:mul9=8'h09;
+         8'h02:mul9=8'h12;
+         8'h03:mul9=8'h1b;
