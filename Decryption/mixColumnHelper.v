@@ -268,3 +268,12 @@ module MixColumnHelper(rc,mcl);
          8'hff:mul9=8'h46;
          endcase
               endfunction
+
+  function [7:0]	mulb;
+      input	[7:0]	rc;
+      case(rc)
+8'h00:mulb=8'h00;
+8'h01:mulb=8'h0b;
+8'h02:mulb=8'h16;
+8'h03:mulb=8'h1d;
+8'h04:mulb=8'h2c;
