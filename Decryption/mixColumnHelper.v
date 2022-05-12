@@ -258,3 +258,13 @@ module MixColumnHelper(rc,mcl);
          8'hf5:mul9=8'h1c;
          8'hf6:mul9=8'h07;
          8'hf7:mul9=8'h0e;
+         8'hf8:mul9=8'h79;
+         8'hf9:mul9=8'h70;
+         8'hfa:mul9=8'h6b;
+         8'hfb:mul9=8'h62;
+         8'hfc:mul9=8'h5d;
+         8'hfd:mul9=8'h54;
+         8'hfe:mul9=8'h4f;
+         8'hff:mul9=8'h46;
+         endcase
+              endfunction
