@@ -270,10 +270,17 @@ module MixColumnHelper(rc,mcl);
               endfunction
 
   function [7:0]	mulb;
-      input	[7:0]	rc;
-      case(rc)
-8'h00:mulb=8'h00;
-8'h01:mulb=8'h0b;
-8'h02:mulb=8'h16;
-8'h03:mulb=8'h1d;
-8'h04:mulb=8'h2c;
+    input	[7:0]	rc;
+    case(rc)
+      8'h00:mulb=8'h00;
+      8'h01:mulb=8'h0b;
+      8'h02:mulb=8'h16;
+      8'h03:mulb=8'h1d;
+      8'h04:mulb=8'h2c;
+      8'h05:mulb=8'h27;
+      8'h06:mulb=8'h3a;
+      8'h07:mulb=8'h31;
+      8'h08:mulb=8'h58;
+      8'h09:mulb=8'h53;
+      8'h0a:mulb=8'h4e;
+      8'h0b:mulb=8'h45;
