@@ -330,4 +330,13 @@ module MixColumnHelper(rc,mcl);
       8'h37:mul9=8'h94;
       8'h38:mul9=8'he3;
       8'h39:mul9=8'hea;
+      8'h3a:mul9=8'hf1;
+      8'h3b:mul9=8'hf8;
+      8'h3c:mul9=8'hc7;
+      8'h3d:mul9=8'hce;
+      8'h3e:mul9=8'hd5;
+      8'h3f:mul9=8'hdc;
+      8'h40:mul9=8'h76;
+      8'h41:mul9=8'h7f;
+      8'h42:mul9=8'h64;
       
