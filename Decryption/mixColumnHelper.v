@@ -536,4 +536,10 @@ function [7:0]	muld;
       case(rc)
       8'h00:muld=8'h00;
       8'h01:muld=8'h0d;
-      
+      8'h02:muld=8'h1a;
+      8'h03:muld=8'h17;
+      8'h04:muld=8'h34;
+      8'h05:muld=8'h39;
+      8'h06:muld=8'h2e;
+      8'h07:muld=8'h23;
+      8'h08:muld=8'h68;
