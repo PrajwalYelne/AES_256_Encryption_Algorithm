@@ -531,3 +531,9 @@ module MixColumnHelper(rc,mcl);
             endcase
       endfunction 
   
+function [7:0]	muld;
+      input	[7:0]	rc;
+      case(rc)
+      8'h00:muld=8'h00;
+      8'h01:muld=8'h0d;
+      
