@@ -519,3 +519,15 @@ module MixColumnHelper(rc,mcl);
       8'hf4:mulb=8'he6;
       8'hf5:mulb=8'hed;
       8'hf6:mulb=8'hf0;
+      8'hf7:mulb=8'hfb;
+      8'hf8:mulb=8'h92;
+      8'hf9:mulb=8'h99;
+      8'hfa:mulb=8'h84;
+      8'hfb:mulb=8'h8f;
+      8'hfc:mulb=8'hbe;
+      8'hfd:mulb=8'hb5;
+      8'hfe:mulb=8'ha8;
+      8'hff:mulb=8'ha3;      
+            endcase
+      endfunction 
+  
