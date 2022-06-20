@@ -584,4 +584,10 @@ function [7:0]	muld;
       8'h2f:muld=8'hf0;
       8'h30:muld=8'h6b;
       8'h31:muld=8'h66;
-        
+      8'h32:muld=8'h71;
+      8'h33:muld=8'h7c;
+      8'h34:muld=8'h5f;
+      8'h35:muld=8'h52;
+      8'h36:muld=8'h45;
+      8'h37:muld=8'h48;
+      8'h38:muld=8'h03;
