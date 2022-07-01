@@ -714,3 +714,4 @@ function [7:0]	muld;
       8'hb1:muld=8'hbc;
       8'hb2:muld=8'hab;
       8'hb3:muld=8'ha6;
+      
