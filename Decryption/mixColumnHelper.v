@@ -792,3 +792,11 @@ function [7:0]	muld;
       8'hff:muld=8'h97;
             endcase
       endfunction
+
+  function [7:0]	mule;
+      input	[7:0]	rc;
+      case(rc)
+        8'h00:mule=8'h00;
+        8'h01:mule=8'h0e;
+        8'h02:mule=8'h1c;
+        
