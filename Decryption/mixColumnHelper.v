@@ -778,4 +778,14 @@ function [7:0]	muld;
       8'hf1:muld=8'hd1;
       8'hf2:muld=8'hc6;
       8'hf3:muld=8'hcb;
+      8'hf4:muld=8'he8;
+      8'hf5:muld=8'he5;
+      8'hf6:muld=8'hf2;
+      8'hf7:muld=8'hff;
+      8'hf8:muld=8'hb4;
+      8'hf9:muld=8'hb9;
+      8'hfa:muld=8'hae;
+      8'hfb:muld=8'ha3;
+      8'hfc:muld=8'h80;
+      8'hfd:muld=8'h8d;
       
