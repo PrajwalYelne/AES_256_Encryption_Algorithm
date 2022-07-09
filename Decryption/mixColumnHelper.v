@@ -799,4 +799,13 @@ function [7:0]	muld;
         8'h00:mule=8'h00;
         8'h01:mule=8'h0e;
         8'h02:mule=8'h1c;
-        
+        8'h03:mule=8'h12;
+        8'h04:mule=8'h38;
+        8'h05:mule=8'h36;
+        8'h06:mule=8'h24;
+        8'h07:mule=8'h2a;
+        8'h08:mule=8'h70;
+        8'h09:mule=8'h7e;
+        8'h0a:mule=8'h6c;
+        8'h0b:mule=8'h62;
+
