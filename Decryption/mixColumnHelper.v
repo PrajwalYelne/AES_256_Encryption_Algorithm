@@ -788,4 +788,7 @@ function [7:0]	muld;
       8'hfb:muld=8'ha3;
       8'hfc:muld=8'h80;
       8'hfd:muld=8'h8d;
-      
+      8'hfe:muld=8'h9a;
+      8'hff:muld=8'h97;
+            endcase
+      endfunction
