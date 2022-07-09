@@ -808,4 +808,13 @@ function [7:0]	muld;
         8'h09:mule=8'h7e;
         8'h0a:mule=8'h6c;
         8'h0b:mule=8'h62;
+        8'h0c:mule=8'h48;
+        8'h0d:mule=8'h46;
+        8'h0e:mule=8'h54;
+        8'h0f:mule=8'h5a;
+        8'h10:mule=8'he0;
+        8'h11:mule=8'hee;
+        8'h12:mule=8'hfc;
+        8'h13:mule=8'hf2;
+        8'h14:mule=8'hd8;
 
