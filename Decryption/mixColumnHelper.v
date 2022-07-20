@@ -951,4 +951,13 @@ function [7:0]	muld;
         8'h98:mule=8'hd1;
         8'h99:mule=8'hdf;
         8'h9a:mule=8'hcd;
+        8'h9b:mule=8'hc3;
+        8'h9c:mule=8'he9;
+        8'h9d:mule=8'he7;
+        8'h9e:mule=8'hf5;
+        8'h9f:mule=8'hfb;
+        8'ha0:mule=8'h9a;
+        8'ha1:mule=8'h94;
+        8'ha2:mule=8'h86;
+        8'ha3:mule=8'h88;
 
