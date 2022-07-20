@@ -940,4 +940,15 @@ function [7:0]	muld;
         8'h8d:mule=8'h07;
         8'h8e:mule=8'h15;
         8'h8f:mule=8'h1b;
+        8'h90:mule=8'ha1;
+        8'h91:mule=8'haf;
+        8'h92:mule=8'hbd;
+        8'h93:mule=8'hb3;
+        8'h94:mule=8'h99;
+        8'h95:mule=8'h97;
+        8'h96:mule=8'h85;
+        8'h97:mule=8'h8b;
+        8'h98:mule=8'hd1;
+        8'h99:mule=8'hdf;
+        8'h9a:mule=8'hcd;
 
