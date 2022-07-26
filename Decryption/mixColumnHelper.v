@@ -977,4 +977,10 @@ function [7:0]	muld;
         8'hb2:mule=8'h66;
         8'hb3:mule=8'h68;
         8'hb4:mule=8'h42;
-        
+        8'hb5:mule=8'h4c;
+        8'hb6:mule=8'h5e;
+        8'hb7:mule=8'h50;
+        8'hb8:mule=8'h0a;
+        8'hb9:mule=8'h04;
+        8'hba:mule=8'h16;
+        8'hbb:mule=8'h18;
