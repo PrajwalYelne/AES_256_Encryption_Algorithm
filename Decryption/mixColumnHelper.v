@@ -1011,4 +1011,12 @@ function [7:0]	muld;
         8'hd4:mule=8'h34;
         8'hd5:mule=8'h3a;
         8'hd6:mule=8'h28;
-        
+        8'hd7:mule=8'h26;
+        8'hd8:mule=8'h7c;
+        8'hd9:mule=8'h72;
+        8'hda:mule=8'h60;
+        8'hdb:mule=8'h6e;
+        8'hdc:mule=8'h44;
+        8'hdd:mule=8'h4a;
+        8'hde:mule=8'h58;
+
