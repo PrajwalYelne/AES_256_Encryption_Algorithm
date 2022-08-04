@@ -1,4 +1,4 @@
-module MixColumnHelper(rc,mcl);
+emodule MixColumnHelper(rc,mcl);
   input [31:0] rc;
   output [31:0] mcl;
   
@@ -1003,3 +1003,12 @@ function [7:0]	muld;
         8'hcc:mule=8'ha4;
         8'hcd:mule=8'haa;
         8'hce:mule=8'hb8;
+        8'hcf:mule=8'hb6;
+        8'hd0:mule=8'h0c;
+        8'hd1:mule=8'h02;
+        8'hd2:mule=8'h10;
+        8'hd3:mule=8'h1e;
+        8'hd4:mule=8'h34;
+        8'hd5:mule=8'h3a;
+        8'hd6:mule=8'h28;
+        
