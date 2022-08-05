@@ -1039,3 +1039,8 @@ function [7:0]	muld;
         8'hf0:mule=8'hd7;
         8'hf1:mule=8'hd9;
         8'hf2:mule=8'hcb;
+        8'hf3:mule=8'hc5;
+        8'hf4:mule=8'hef;
+        8'hf5:mule=8'he1;
+        8'hf6:mule=8'hf3;
+        8'hf7:mule=8'hfd;
