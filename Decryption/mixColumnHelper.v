@@ -1048,3 +1048,11 @@ function [7:0]	muld;
         8'hf9:mule=8'ha9;
         8'hfa:mule=8'hbb;
         8'hfb:mule=8'hb5;
+        8'hfc:mule=8'h9f;
+        8'hfd:mule=8'h91;
+        8'hfe:mule=8'h83;
+        8'hff:mule=8'h8d;      
+      endcase
+endfunction      
+endmodule
+        
